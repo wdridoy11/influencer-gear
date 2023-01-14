@@ -48,6 +48,31 @@
 }
 
 @media screen and (max-width: 767px) {
+   .navbar-item {
+      display: block;
+   }
+
+   .navbar-item>i {
+      font-size: 24px;
+      color: var(--black);
+   }
+
+   .nav-menu {
+      display: none;
+   }
+
+   .header-area {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas:
+         'navbar logo nav-card'
+      ;
+   }
+
+   .banner-title {
+      font-size: 28px;
+      line-height: 42px;
+   }
+
    .banner-img>img {
       width: 75%;
    }
